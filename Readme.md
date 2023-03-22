@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Michael Melnikov](https://up.htmlacademy.ru/htmlcss/36/user/1258921).
-* Наставник: `Неизвестно`.
+* Наставник: [Павел Позняк](https://htmlacademy.ru/profile/id907403).
 
 ---
 
