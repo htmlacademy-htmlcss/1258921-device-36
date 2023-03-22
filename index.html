@@ -3,18 +3,22 @@
 
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Девайс</title>
+    <meta name="keywords" content="Device">
+    <meta name="description" content="HTML Academy: Device">
+    <title>HTML Academy: Device</title>
+    <link rel="stylesheet" href="/styles/style.css">
   </head>
 
   <body>
-    <div class="container">
+    <div class="wrapper header_wrapper">
       <header class="main_header">
         <a class="header_logo_link" href="#">
           <img class="header_logo_image" src="" width="" height="" alt=".">
         </a>
         <nav class="navigation">
           <form class="navigation_form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="navigation_input" type="text" placeholder="Поиск по сайту"> <!-- Obyasatelno li tut nujen name? I esli da, to sachem -->
+            <input class="navigation_input" type="text" placeholder="Поиск по сайту">
+            <!-- Obyasatelno li tut nujen name? I esli da, to sachem -->
             <button class="navigation_form_button" type="submit">Найти</button>
           </form>
 
@@ -63,17 +67,43 @@
               <a href="#" class="navigation_link">Контакты</a>
             </li>
           </ul>
-          <span class="#">01</span>
         </nav>
       </header>
     </div>
-    <div class="container"></div>
-    <div class="container"></div>
-    <div class="container"></div>
-    <div class="container"></div>
-    <div class="container"></div>
-    <div class="container"></div>
-    <div class="container"></div>
+
+    <main class="main_index">
+      <h1 class="visually_hidden">Device</h1>
+      <section class="slider">
+        <div class="wrapper">
+          <h2 class="visually_hidden">Слайдер</h2>
+          <button class="slider_button slider_button_left" type="#"></button> <!--Kakoi type dlya button?-->
+          <img class="slider_image" src="#" width="" height="" alt=".">
+          <button class="slider_button slider_button_right" type="#"></button>
+          <p class="title slider_title">Порхает как бабочка, жалит как пчела!</p>
+          <p class="description slider_description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
+            замаскированным под стандартную камеру.</p>
+          <a class="slider_link" href="#">Подробнее</a>
+          <table> <!--Tabliza, spisok opisanii ili esho chto-nibud-->
+            <tr>
+              <td>800 м</td>
+              <td>50 м</td>
+            </tr>
+            <tr>
+              <th>Дальность полета</th>
+              <th>Радиус поражения</th>
+            </tr>
+          </table>
+          <ul class="slider_pagination">
+            <li class="pagination_item">1</li>
+            <li class="pagination_item">2</li>
+            <li class="pagination_item">3</li>
+          </ul>
+          <span class="#">01</span>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
   </body>
 
 </html>

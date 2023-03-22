@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  background-color: red;
+}
+
+.wrapper {
+  width: 1160px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+}
+
+.header_wrapper {
+  background-color: #FFE17F;
+}
