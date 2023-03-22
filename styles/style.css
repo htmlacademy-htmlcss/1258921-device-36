@@ -12,3 +12,9 @@ body {
 .header_wrapper {
   background-color: #FFE17F;
 }
+
+.catalog_image_wrapper {
+  background-color: #FFE17F;
+  width: 160px;
+  height: 160px;
+}
