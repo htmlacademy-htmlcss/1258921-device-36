@@ -3,6 +3,12 @@ body {
   background-color: red;
 }
 
+.main_index {
+  background-color: #FFFFFF;
+}
+
+/* Wrappers */
+
 .wrapper {
   width: 1160px;
   margin: 0 auto;
@@ -12,16 +18,17 @@ body {
   background-color: #FFE17F;
 }
 
-.main_index {
-  background-color: #FFFFFF;
-}
-
 .catalog_image_wrapper {
   background-color: #FFE17F;
   width: 160px;
   height: 160px;
 }
 
-.gray_background_wrapper {
+.advantages_background_wrapper {
   background-color: #F0F0F0;
+}
+
+.small_section_wrapper {
+  width: 580px;
+  margin: 0 auto; /* Ne uveren */
 }
