@@ -24,7 +24,7 @@ body {
   height: 160px;
 }
 
-.advantages_background_wrapper {
+.gray_background_wrapper {
   background-color: #F0F0F0;
 }
 
@@ -36,3 +36,7 @@ body {
 .footer_wrapper {
   background-color: #444444;
 }
+
+/* .catalog_main_wrapper {
+  background-color: #F0F0F0;
+} */
