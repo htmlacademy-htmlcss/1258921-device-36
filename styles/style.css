@@ -1,6 +1,20 @@
 body {
   margin: 0;
+  margin-top: 40px;
   background-color: red;
+}
+
+.visually_hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .main_index {
@@ -18,7 +32,7 @@ body {
   background-color: #FFE17F;
 }
 
-.catalog_image_wrapper {
+.category_image_wrapper {
   background-color: #FFE17F;
   width: 160px;
   height: 160px;
@@ -29,14 +43,49 @@ body {
 }
 
 .small_section_wrapper {
-  width: 580px;
-  margin: 0 auto; /* Ne uveren */
+  width: 578px;
+  /* margin: 0 auto; Ne uveren */
+  display: inline-block;
+
 }
 
 .footer_wrapper {
   background-color: #444444;
 }
 
-/* .catalog_main_wrapper {
-  background-color: #F0F0F0;
-} */
+
+/* dd */
+
+h1 {
+  margin: 0;
+}
+
+.navigation_list {
+  margin: 0;
+  color: red;
+}
+
+.header_logo_image {
+  margin-top: -25px;
+}
+
+.footer_social_list {
+  margin-bottom: 0;
+}
+
+.footer_contacts_list {
+  margin: 0;
+}
+
+.title {
+  margin: 0;
+}
+
+.category_list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  /* Ne pravilno, peredelat  */
+}
