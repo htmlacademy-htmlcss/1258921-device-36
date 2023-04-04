@@ -11,49 +11,49 @@
 
   <body>
     <header class="main_header wrapper header_wrapper">
-      <a class="header_logo_link" href="/index.html">
-        <img class="header_logo_image" src="" width="" height="" alt=".">
+      <a class="header_logo_link" href="index.html">
+        <img class="header_logo_image" src="/images/header/header_logo.svg" width="145px" height="36px"
+          alt="Логотип Device.">
       </a>
       <nav class="navigation">
-        <form class="navigation_form" action="https://echo.htmlacademy.ru/" method="post">
-          <input class="navigation_input" type="text" placeholder="Поиск по сайту">
-          <!-- Obyasatelno li tut nujen name? I esli da, to sachem -->
-          <button class="navigation_form_button" type="submit">Найти</button>
-        </form>
+        <div class="navigation_user">
+          <form class="navigation_form" action="https://echo.htmlacademy.ru/" method="post">
+            <label>
+              <span class="visually_hidden">Поиск по сайту</span>
+              <input class="navigation_input" type="text" placeholder="Поиск по сайту">
+            </label>
+            <!-- Obyasatelno li tut nujen name? I esli da, to sachem, sabil-->
+            <button class="navigation_form_button" type="submit">Найти</button>
+          </form>
 
-        <ul class="navigation_user_list">
-          <li class="navigation_user_item">
-            <a class="navigation_user_link" href="#">Войти</a>
-          </li>
-          <li class="navigation_user_item">
-            <a class="navigation_user_link" href="#">Сравнить</a>
-          </li>
-          <li class="navigation_user_item">
-            <a class="navigation_user_link" href="#">Корзина</a>
-          </li>
-        </ul>
+          <a class="navigation_user_link" href="#">Войти</a>
+          <a class="navigation_user_link" href="#">Сравнить</a>
+          <a class="navigation_user_link" href="#">Корзина</a>
+        </div>
 
-        <button class="navigation_catalog_button">Каталог товаров</button>
-        <ul class="navigation_catalog_list">
-          <li class="navigation_catalog_item">
-            <a href="#" class="navigation_catalog_link">Виртуальная реальность</a>
-          </li>
-          <li class="navigation_catalog_item">
-            <a href="#" class="navigation_catalog_link">Моноподы для селфи</a>
-          </li>
-          <li class="navigation_catalog_item">
-            <a href="#" class="navigation_catalog_link">Экшн-камеры</a>
-          </li>
-          <li class="navigation_catalog_item">
-            <a href="#" class="navigation_catalog_link">Фитнес-браслеты</a>
-          </li>
-          <li class="navigation_catalog_item">
-            <a href="#" class="navigation_catalog_link">Умные часы</a>
-          </li>
-          <li class="navigation_catalog_item">
-            <a href="#" class="navigation_catalog_link">Квадрокоптеры</a>
-          </li>
-        </ul>
+        <div class="navigation_catalog">
+          <button class="navigation_catalog_button" type="button">Каталог товаров</button>
+          <ul class="navigation_catalog_list">
+            <li class="navigation_catalog_item">
+              <a href="#" class="navigation_catalog_link">Виртуальная реальность</a>
+            </li>
+            <li class="navigation_catalog_item">
+              <a href="catalog.html" class="navigation_catalog_link">Моноподы для селфи</a>
+            </li>
+            <li class="navigation_catalog_item">
+              <a href="#" class="navigation_catalog_link">Экшн-камеры</a>
+            </li>
+            <li class="navigation_catalog_item">
+              <a href="#" class="navigation_catalog_link">Фитнес-браслеты</a>
+            </li>
+            <li class="navigation_catalog_item">
+              <a href="#" class="navigation_catalog_link">Умные часы</a>
+            </li>
+            <li class="navigation_catalog_item">
+              <a href="#" class="navigation_catalog_link">Квадрокоптеры</a>
+            </li>
+          </ul>
+        </div>
 
         <ul class="navigation_list">
           <li class="navigation_item">

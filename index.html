@@ -11,72 +11,49 @@
 
   <body>
     <header class="main_header wrapper header_wrapper">
-      <a class="header_logo_link" href="/index.html">
+      <a class="header_logo_link" href="index.html">
         <img class="header_logo_image" src="/images/header/header_logo.svg" width="145px" height="36px"
           alt="Логотип Device.">
       </a>
       <nav class="navigation">
-        <form class="navigation_form" action="https://echo.htmlacademy.ru/" method="post">
-          <label for="search"></label>
-          <input class="navigation_input" type="text" id="search" placeholder="Поиск по сайту">
-          <!-- Obyasatelno li tut nujen name? I esli da, to sachem, sabil-->
-          <button class="navigation_form_button" type="submit">Найти</button>
-        </form>
+        <div class="navigation_user">
+          <form class="navigation_form" action="https://echo.htmlacademy.ru/" method="post">
+            <label>
+              <span class="visually_hidden">Поиск по сайту</span>
+              <input class="navigation_input" type="text" placeholder="Поиск по сайту">
+            </label>
+            <!-- Obyasatelno li tut nujen name? I esli da, to sachem, sabil-->
+            <button class="navigation_form_button" type="submit">Найти</button>
+          </form>
 
-        <ul class="navigation_user_list">
-          <li class="navigation_user_item">
-            <a class="navigation_user_link" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" fill="none" viewBox="0 0 15 12">
-                <path fill="#000"
-                  d="M1 12h13c-.2-2.6-2.1-4.8-4.7-5.5 1-.6 1.7-1.7 1.7-3C11 1.6 9.4 0 7.5 0S4 1.6 4 3.5c0 1.3.7 2.4 1.7 3C3.1 7.2 1.2 9.4 1 12Z" />
-              </svg>Войти
-            </a>
-          </li>
-          <li class="navigation_user_item">
-            <a class="navigation_user_link" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="12" fill="none" viewBox="0 0 10 12">
-                <path fill="#000" d="M6 0H4v12h2V0ZM2 4H0v8h2V4ZM10 3H8v9h2V3Z" />
-              </svg>Сравнить
-            </a>
-          </li>
-          <li class="navigation_user_item">
-            <a class="navigation_user_link" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="none" viewBox="0 0 16 14">
-                <g clip-path="url(#a)">
-                  <path fill="#000"
-                    d="m15.3 5-3.5.2L8.6.3C8.5.1 8.2 0 8 0c-.2 0-.5.1-.6.3L4.2 5.2H.7c-.4 0-.7.3-.7.7v.2l1.9 6.8c.2.7.7 1.1 1.4 1.1h9.4c.7 0 1.2-.4 1.4-1.1L16 6v-.2c0-.4-.3-.8-.7-.8ZM8 1.9l2.2 3.2H5.9L8 1.9Z" />
-                </g>
-                <defs>
-                  <clipPath id="a">
-                    <path fill="#fff" d="M0 0h16v14H0z" />
-                  </clipPath>
-                </defs>
-              </svg>Корзина
-            </a>
-          </li>
-        </ul>
+          <a class="navigation_user_link" href="#">Войти</a>
+          <a class="navigation_user_link" href="#">Сравнить</a>
+          <a class="navigation_user_link" href="#">Корзина</a>
+        </div>
 
-        <button class="navigation_catalog_button">Каталог товаров</button>
-        <ul class="navigation_catalog_list">
-          <li class="navigation_catalog_item">
-            <a href="#" class="navigation_catalog_link">Виртуальная реальность</a>
-          </li>
-          <li class="navigation_catalog_item">
-            <a href="#" class="navigation_catalog_link">Моноподы для селфи</a>
-          </li>
-          <li class="navigation_catalog_item">
-            <a href="#" class="navigation_catalog_link">Экшн-камеры</a>
-          </li>
-          <li class="navigation_catalog_item">
-            <a href="#" class="navigation_catalog_link">Фитнес-браслеты</a>
-          </li>
-          <li class="navigation_catalog_item">
-            <a href="#" class="navigation_catalog_link">Умные часы</a>
-          </li>
-          <li class="navigation_catalog_item">
-            <a href="#" class="navigation_catalog_link">Квадрокоптеры</a>
-          </li>
-        </ul>
+        <div class="navigation_catalog">
+          <button class="navigation_catalog_button" type="button">Каталог товаров</button>
+          <ul class="navigation_catalog_list">
+            <li class="navigation_catalog_item">
+              <a href="#" class="navigation_catalog_link">Виртуальная реальность</a>
+            </li>
+            <li class="navigation_catalog_item">
+              <a href="catalog.html" class="navigation_catalog_link">Моноподы для селфи</a>
+            </li>
+            <li class="navigation_catalog_item">
+              <a href="#" class="navigation_catalog_link">Экшн-камеры</a>
+            </li>
+            <li class="navigation_catalog_item">
+              <a href="#" class="navigation_catalog_link">Фитнес-браслеты</a>
+            </li>
+            <li class="navigation_catalog_item">
+              <a href="#" class="navigation_catalog_link">Умные часы</a>
+            </li>
+            <li class="navigation_catalog_item">
+              <a href="#" class="navigation_catalog_link">Квадрокоптеры</a>
+            </li>
+          </ul>
+        </div>
 
         <ul class="navigation_list">
           <li class="navigation_item">
