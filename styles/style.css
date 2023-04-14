@@ -23,6 +23,11 @@
 }
 
 body {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
   margin: 0;
   margin-top: 40px;
   background-color: red;
@@ -40,6 +45,8 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+
 
 .main_index {
   background-color: #FFFFFF;
@@ -111,4 +118,30 @@ h1 {
   justify-content: space-around;
   list-style-type: none;
   /* Ne pravilno, peredelat  */
+}
+
+
+/* Navigation */
+
+.navigation_input {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.navigation_form_button {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* Footer */
+
+.footer_contacts {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.contacts_address {
+  font-style: normal;
 }
